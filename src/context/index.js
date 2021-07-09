@@ -30,8 +30,9 @@ export const SessionProvider = ({ children }) => {
   const [apiKey, setApiKey] = useState("YOUR_API_KEY");
   const [sessionId, setSessionId] = useState("YOUR_SESSION_ID");
   const [token, setToken] = useState("YOUR_TOKEN");
+  const [mediaUrl, setMediaUrl] = useState("MEDIA_BLOB");
   return (
-    <SessionContext.Provider value={[apiKey, setApiKey, sessionId, setSessionId, token, setToken]}>
+    <SessionContext.Provider value={{mediaUrl, setMediaUrl}}>
       {children}
     </SessionContext.Provider>
   );
