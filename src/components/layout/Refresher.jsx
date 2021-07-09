@@ -30,11 +30,11 @@ const Refresher = () => {
                         <Grid container spacing={1}>
                             <Box m={2} height={800} width = {1000}>
                                 <Box fontStyle="normal" fontSize={25} textAlign="center" fontWeight="fontWeightBold" >
-                                    Complete the exericses to unlock today's session!
+                                    Complete the exercises to unlock today's session!
                                 </Box>
                                 <div style={{ display: 'flex' }}>
                                     <Box textAlign="left" fontSize={18} fontWeight="fontWeightMedium" m={3.5}> 
-                                        OARS are basic skills practitioners often have in their clinical toolbox already?
+                                        OARS are basic skills practitioners often have in their clinical toolbox already.
                                     </Box>
                                     <Box align="left" m = {2}>          
                                         <ToggleButtonGroup
